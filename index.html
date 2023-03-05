@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Comment generer un doc pdf a partir d'un formulaire ?
+		</title>
+		<meta charset="utf-8" />
+		<meta name="description" content="" />
+		<meta name="author" content="Valentina Serra" />
+		<!-- Liens vers mes ressources CSS -->
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="stylesheet" type="text/css" href="index.css" />
+		<link rel="stylesheet" type="text/css" href="pdf.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+		<!-- Liens vers mes ressources JS -->
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<div id="formulaire">
+			<h1>Super formulaire de la mort</h1>
+
+			<!-- FORMULAIRE -->
+			<form action="#">
+
+					<!-- last name -->
+					<div id="demi" class="input">
+						<p>Nom</p>
+						<input type="text" class="formName">
+					</div>
+	
+					<!-- first name -->
+					<div id="demi" class="input">
+						<p>Prenom</p>
+						<input type="text" class="formPrenom">
+					</div>
+
+				<!-- mail -->
+				<div class="input">
+					<p>Mail</p>
+					<input type="text" class="formMail" placeholder="you@gmail.com" pattern="(^[a-z0-9]+)@([a-z0-9])+(\.)([a-z]{2,4})">
+				</div>
+
+				<!-- phone -->
+				<div class="input">
+					<p>Telephone</p>
+					<input type="text" class="formPhone">
+				</div>
+
+				<!-- button -->
+				<button onclick="displayPdf()">Envoyer</button>
+				<!-- <input type="submit" class="submit" onclick="displayPdf()"> -->
+				<script src="script.js"></script>
+			</form>
+		</div>
+	</body>
+</html>
