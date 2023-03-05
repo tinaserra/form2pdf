@@ -1,0 +1,57 @@
+.pdf_page .top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+.pdf_page .top p{
+    font-family: BeVietnamPro-Medium;
+    color: rgb(50, 50, 50);
+}
+
+.pdf_page{
+    background-color: rgb(224, 230, 236);
+}
+.pdf_page .content{
+    margin: auto;
+    margin-top: 100px;
+    max-width: 1290px;
+}
+
+.pdf_page h2{
+    font-family: BeVietnamPro-SemiBold;
+    font-size: 20px;
+    color: rgb(255, 139, 180);
+    margin-bottom: 40px;
+}
+
+.pdf_page .doc{
+    background-color: #fff;
+    padding: 80px;
+}
+
+.pdf_page .elements{
+    color: rgb(31, 31, 31);
+    font-size: 14px;
+}
+
+.pdf_page .info{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.pdf_page .info p{
+    margin-right: 10px;
+    width: 120px;
+    font-family: BeVietnamPro-Light;
+}
+.pdf_page .info span{
+    background-color: rgb(244, 232, 236);
+    font-family: BeVietnamPro-Medium;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+}

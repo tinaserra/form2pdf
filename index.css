@@ -1,0 +1,31 @@
+#formulaire{
+    padding: 80px;
+    background-color: rgb(224, 230, 236);
+    border-radius: 20px;
+}
+body{
+    background-color: rgb(7, 84, 135);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+#formulaire input{
+    width: 100%;
+    background-color: white;
+    margin-top: 15px;
+    border: none;
+    padding: 15px 20px 15px 20px;
+    border-radius: 8px;
+}
+#formulaire .input{
+    margin-bottom: 30px;
+    font-family: BeVietnamPro-SemiBold;
+    font-size: 14px;
+}
+#formulaire button{
+    width: 100%;
+    margin-top: 15px;
+}
