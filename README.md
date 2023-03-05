@@ -1,10 +1,10 @@
 # FORM2PDF
 
-```
-le but est de generer un pdf a partir d'un formulaire remplis en ligne. il faut ensuite pouvoir telecharger le pdf et / ou l'envoyer par mail.
-```
+**Le but est de generer un pdf a partir d'un formulaire remplis en ligne.**
+**Il faut ensuite pouvoir telecharger le pdf et / ou l'envoyer par mail.**
 
-ici j'ai cree une premiere page avec un formulaire simple. on remplis les 4 infos demandées :
+
+Ici j'ai crée une premiere page (`index.html`) avec un formulaire simple. On remplis les 4 infos demandées :
 **nom**, **prenom**, **mail**, **phone**, puis on clique sur "envoyer".
 
 Dans `index.html`, on attribu una classe respective a chacune des infos: 
