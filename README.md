@@ -3,6 +3,7 @@
 **Le but est de generer un pdf a partir d'un formulaire remplis en ligne.**
 **Il faut ensuite pouvoir telecharger le pdf et / ou l'envoyer par mail.**
 
+- [tuto d'inspiration](https://www.youtube.com/watch?v=_BQd4i_N-rA)
 
 Ici j'ai crée une premiere page (`index.html`) avec un formulaire simple. On remplis les 4 infos demandées :
 **nom**, **prenom**, **mail**, **phone**, puis on clique sur "envoyer".
